@@ -20,36 +20,37 @@ project:
     - "project.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+# Descrição dos pinos de entrada e saída
 pinout:
-  # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  # Entradas digitais dedicadas
+  ui[0]: "Operando A - Bit 0"
+  ui[1]: "Operando A - Bit 1"
+  ui[2]: "Operando A - Bit 2"
+  ui[3]: "Operando A - Bit 3"
+  ui[4]: "Operando A - Bit 4"
+  ui[5]: "Operando A - Bit 5"
+  ui[6]: "Operando A - Bit 6"
+  ui[7]: "Operando A - Bit 7"
 
-  # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  # Saídas digitais dedicadas
+  uo[0]: "Resultado - Bit 0"
+  uo[1]: "Resultado - Bit 1"
+  uo[2]: "Resultado - Bit 2"
+  uo[3]: "Resultado - Bit 3"
+  uo[4]: "Resultado - Bit 4"
+  uo[5]: "Resultado - Bit 5"
+  uo[6]: "Resultado - Bit 6"
+  uo[7]: "Resultado - Bit 7"
 
-  # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  # Entradas/Saídas bidirecionais (usadas para o Operando B)
+  uio[0]: "Operando B - Bit 0"
+  uio[1]: "Operando B - Bit 1"
+  uio[2]: "Operando B - Bit 2"
+  uio[3]: "Operando B - Bit 3"
+  uio[4]: "Operando B - Bit 4"
+  uio[5]: "Operando B - Bit 5"
+  uio[6]: "Operando B - Bit 6"
+  uio[7]: "Operando B - Bit 7"
 
 # Do not change!
 yaml_version: 6
