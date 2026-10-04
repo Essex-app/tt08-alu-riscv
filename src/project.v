@@ -1,4 +1,4 @@
-module tt_um_example (
+module tt_um_mpks_alu (
     input  wire [7:0] ui_in,    // Entradas da ALU: A
     output wire [7:0] uo_out,   // Saída da ALU: Result
     input  wire [7:0] uio_in,   // Entradas da ALU: B
