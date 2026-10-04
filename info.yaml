@@ -3,7 +3,7 @@ project:
   title: "ALU 8-bit RISC-V"      # Project title
   author:       "MpKs"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "ALU de 8 bits para processador RISC-V"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
